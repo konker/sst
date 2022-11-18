@@ -171,7 +171,7 @@ export function StackA({ stack }: StackContext) {
 import { StackContext, use } from "@serverless-stack/resources";
 import { StackA } from "./StackA";
 
-export function StackA({ stack }: StackContext) {
+export function StackB({ stack }: StackContext) {
   // stackA's return value is passed to stackB
   const { bucket } = use(StackA);
 
